@@ -1,0 +1,55 @@
+html {
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background-color: #EEEEEE;
+}
+
+.app-container {
+  margin: 75px auto;
+}
+
+.app {
+  min-height: 400px;
+  background-color: #393E46;
+  border: solid 4px #00ADB5;
+  color: #EEEEEE;
+}
+.app #addNew {
+  border: #00ADB5 solid 2px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  max-width: 150px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+.app #addNew:hover {
+  background-color: #00ADB5;
+}
+
+#msg {
+  color: #d90429;
+}
+
+#tasks > div {
+  background-color: #00ADB5;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 0 auto;
+  color: white;
+}
+
+#tasks div .options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#tasks div .options i {
+  cursor: pointer;
+}

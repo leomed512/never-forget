@@ -1,0 +1,43 @@
+.app-container {
+    margin: 75px auto; 
+}
+
+.app {   
+    min-height: 400px;
+    background-color: $light-grey;
+    border: solid 4px $bluemarin;
+    color: $off-white;
+    #addNew {
+        border: $bluemarin solid 2px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        max-width: 150px;
+        margin: 0 auto;
+        cursor: pointer;
+    }
+    #addNew:hover {
+        background-color: $bluemarin;
+    }
+}
+#msg {
+    color: #d90429;
+}
+
+#tasks > div{
+    background-color: $bluemarin;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+    color: white;
+
+}
+
+#tasks div .options {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  #tasks div .options i {
+    cursor: pointer;
+  }
